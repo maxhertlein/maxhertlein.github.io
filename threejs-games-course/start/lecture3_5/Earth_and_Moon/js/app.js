@@ -11,6 +11,8 @@ var APP = {
 
 		var vrButton = VRButton.createButton( renderer ); // eslint-disable-line no-undef
 
+		renderer.xr.enabled = true;
+
 		var events = {};
 
 		var dom = document.createElement( 'div' );
