@@ -38,6 +38,7 @@
 				player.play();
 
 				document.body.appendChild( player.dom );
+				document.body.appendChild( VRButton.createButton( renderer ) );
 
 				window.addEventListener( 'resize', function () {
 
